@@ -1,0 +1,32 @@
+.main .mainRight .rightTop{
+    height: 24px;
+    width: 770px;
+    border-bottom: 2px solid #000;
+    font-size: 12px;
+    line-height: 24px;
+}
+#u1 {
+    overflow: hidden;
+    width: 755px;
+    padding-top: 20px;
+}
+#u1 li {
+    font-size: 12px;
+    width: 172px;
+    float:left;
+    margin-bottom: 42px;
+    margin-right: 10px;
+}
+#u1 li a{
+    display: block;
+    width: 160px;
+}
+#u1 li span{
+    color:red;
+}
+#u1 li h4{
+    color:#378D22;
+}
+#u1 li h5{
+    text-decoration: underline;
+}
