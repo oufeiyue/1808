@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"></head><body><h1>商品详情</h1><div id="output"></div><script type="text/javascript">var output = document.getElementById("output");
+    var canshu = decodeURI(location.search);
+    var canStr =canshu.slice(1, -1);
+    var canArr = canStr.split('&');
+    var obj ={};
+    canArr.forEach(function(item,idx){
+        var arr = item.split('=');
+        obj[arr[0]] = arr[1];
+    })
+    output.innerHTML = '<p>价格:'+obj.price+'</p>'+
+    '<p><img src="../'+obj.img+'" /></p>'+
+    '<p>商品:'+obj.name+'</p>';</script></body></html>
